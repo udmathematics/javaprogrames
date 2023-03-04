@@ -1,0 +1,10 @@
+import java.util.*;
+class LengthMethodDemo 
+{
+	public static void main(String[] args) 
+	{
+		String[] a = " bhupathi ";
+		System.out.println(a.length());
+
+	}
+}

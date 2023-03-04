@@ -1,0 +1,15 @@
+class DoWhileDemo 
+{
+	public static void main(String[] args) 
+	{
+		int tNumber = 15, intial = 0;
+
+		do
+		{
+			System.out.print("\t"+intial);
+			intial = intial + 1;
+		}
+		while(intial <= tNumber)
+			System.out.println("statemet");
+	}           
+}

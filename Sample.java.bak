@@ -1,0 +1,12 @@
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		Thread t = new Thread();
+		Object o = new Object("anushka");
+		String s = new String("anushka");
+		System.out.println( o == s); // false
+		System.out.println( t == o); //false
+		//System.out.println( s == t); 
+	}
+}
